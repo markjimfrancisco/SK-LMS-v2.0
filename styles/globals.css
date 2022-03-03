@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir";
+  src: url("/AvenirLTStd-Roman.otf");
+}
+
+html,
+body {
+  @apply font-avenir;
+}
+
+#dash-menu {
+  background: #173245;
+}
+
+#mini-profile {
+  padding: 20px;
+}
+
+#mini-avatar {
+  width: 25%;
+  float: left;
+}
+
+#mini-name {
+  width: 73%;
+  float: right;
+}
+
+#dashboard-menu ul li:hover {
+  background: #ffffff;
+  color: #173245;
+}
+
+.hero,
+.bg-nav {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #62b4ff 0%, #0080f6 100%);
+}
+
+.border-none {
+  border: none;
+}
+
+.border-l-0 {
+  border-left: none;
+}
+
+.border-r-0 {
+  border-right: none;
+}
+
+.border-y-0 {
+  border-top: none;
+  border-bottom: none;
+}
+
+body {
+  --navbar-height: 5rem;
+}
+
+.top-navbar-height {
+  top: var(--navbar-height);
+}
